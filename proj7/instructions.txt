@@ -1,0 +1,12 @@
+You will have 2 weeks to complete this project.
+
+First, you should work on implementing the sequence class, but using a linked list as the underlying data structure. Before starting on the sequence class, however, you will need to implement the list_piece function in the node class.
+
+Second, you must complete the other linked list toolkit functions in the node class that currently have implementations.
+
+You will need to download the following files to complete the lab:
+
+node.h - The interface for the node class used to build linked lists.
+node.cpp - The implementation of the node class, minus the additional toolkit functions that you must implement.
+sequence.h - The interface for the sequence class for which you must write the implementation.
+Your final submission should include all of the above files, with your implementation of the incomplete toolkit functions in node.cpp, as well as a sequence.cpp file with your linked list implementation of the sequence class.

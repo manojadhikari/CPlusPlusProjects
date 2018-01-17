@@ -1,0 +1,11 @@
+This week you will be changing and adding to classes that you wrote in earlier weeks. First, you will modify the polynomial class from week 4 to use a dynamic area with no size limit. Second, you will add 8 functions to your string class. These functions are described in textbook problem 1 at the end of chapter 4, as well as in the comments at the top of the header file below.
+
+The following .cpp files are fully functional implementations of the polynomial and string classes. You should download these and modify them rather than using your solutions from earlier labs:
+
+poly.cpp
+mystring.cpp
+
+The following .h files contain updated declarations of the classes you need to change and descriptions in the headers. Please remove the "-1" from the file names before using.
+
+poly.h
+mystring.h

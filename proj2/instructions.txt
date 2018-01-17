@@ -1,0 +1,24 @@
+For project 2, you are to implement two classes specified in the exercises from your textbook. For the purposes of testing, I will give you a specification for the names for the classes and functions you are to implement.
+
+The first class is the statistician class detailed in programming projects #2 and #3 on page 90 of the text. Make sure to read the note at the end of #2 about not needing to store the sequences of numbers. Finally, for #3 you should implement the "= operator" in addition to the "+ operator". Assuming s1, s2, and s3 are all statisticians, I should be able to write a line like "s3 = s1 + s2;" in order to save the result of adding s1 and s2. The specification for this class is as follows:
+
+Name the class "statistician" with all lowercase letters.
+The function "next_number" should add a number to the sequence.
+The function "length" should return the number of values in the sequence.
+The function "last" should return the last number added to the sequence.
+The function "sum" should return the sum of the numbers in the sequence.
+The function "mean" should return the mean of the numbers in the sequence.
+The function "smallest" should return the smallest number in the sequence.
+The function "largest" should return the largest number in the sequence.
+The function "erase" should erase the sequence.
+The second class is the pseudorandom number generator class detailed in programming project #11. The specification for this class is as follows:
+
+Name the class "RandGen".
+The order of the parameters for the constructor of RandGen should be: seed, multiplier, increment, and then modulus.
+Name the function to generate the next number "next".
+Name the function to change the value of the seed "setSeed".
+The code for each of these classes should be divided across two files:
+
+A .h file for the interface/class definition.
+And a .cpp file for the implementation of the class' functions.
+In total, you should be submitting four files: statistician.h, statistician.cpp, random.h, and random.cpp. Further, you should upload these as separate files rather than zipping or tarring them together. You should not include a main() function in any of these files, but you should write one in a separate .cpp file in order to test the functionality of your classes before submitting your code. You should not include the files with your main() function(s) in your submission.

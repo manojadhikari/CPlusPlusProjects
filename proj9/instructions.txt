@@ -1,0 +1,10 @@
+You will be implementing a version of the bag class that uses a binary search tree. Please download the following PDF for more information on the files that you will need.
+
+Assignment.pdf
+
+You should download the following files to help you complete and test your implementation:
+
+bintree.h - The class and functions needed for a binary tree. You are to use this in the implementation of the bag class.
+bag6.h - The header file for the bag class. This also contains partial implementations that you will need to complete.
+bagtest.cxx - A program that allows you to manually test the functionality of your bag class.
+bagexam.cxx - A program that automatically tests and scores the functionality of the bag class.

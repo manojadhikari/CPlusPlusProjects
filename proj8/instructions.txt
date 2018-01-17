@@ -1,0 +1,12 @@
+Please download the following PDF and follow the instructions to complete this week's lab. Please note that this assignment is due on Thursday rather than the usual weekend time.
+
+Assignment.pdf
+
+You will need the following files in order to start work on the lab:
+
+node2.h - A template version of the node class.
+A non-template version of the sequence class using a linked list that you will need to change into a template class. You will need to combine these into one file for your final solution.
+sequence.h
+sequence.cpp
+sequence_test.cxx - A file for manually testing the functionality of the different methods in the sequence class.
+sequence_exam4.cxx - A file for automated testing of sequence functionality.

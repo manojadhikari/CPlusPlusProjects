@@ -1,0 +1,9 @@
+You will complete the implementation for a simplified version of the Standard Library string class. Please download and read through the header file linked below:
+
+mystring.h
+
+You are to write the implementation for the above header file in a file named mystring.cpp. Please note that the name of the actual class that you are writing is string not mystring. For this reason, the use of namespaces are particularly important to this lab, as your class will have the same name as that of the Standard Library's string class.
+
+You are allowed to use functions from the library string.h to assist you in writing your functions for things like copying between strings or appending strings to one another. You are to make sure, however, that you use safe versions of these strings. For example, you should use strncpy and strncat, not their less secure alternatives of strcpy and strcat. Finally, you may NOT use the "strdup" function.
+
+ Before submitting, make sure to write a test file to thoroughly test all of the functions of your class. I recommend that, for this test file, you do not use the namespace std (i.e. don't have the line "using namespace std" in your code). It will likely be easier to just use your namespace: coen70_lab5. If you don't like putting std:: in front of cout, cin, and endl every time you write them, you can use lines like "using std::cout", "using std::cin", etc.

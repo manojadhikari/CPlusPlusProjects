@@ -1,0 +1,14 @@
+Project 3
+Due Oct 9, 2016 by 11:59pm  Points 90  Submitting a file upload Available after Oct 4, 2016 at 9:15am
+In this week's lab you will be implementing the sequence class described in the third chapter of your textbook. The problems in the book that describe what you need to implement are numbers 3 and 4.
+
+The relevant pages from the textbook can be found in modules under project 3. Please make sure to match the names of the functions in the book exactly. Additionally, please follow the typedef and defined size paradigm described at the top of page 125. I should be able to change your code in one place and have a sequence that works for int, doubles, or strings, as well as change the capacity of your sequence.
+
+You should also be implementing the "optional" functions mentioned in problem number 3. These should be named:
+
+insert_front - insert a new value at the front of the sequence. This new item should now be the current item.
+remove_front - remove the value at the front of the sequence. The new front item should now be the current item.
+attach_back - insert a new value at the back of the sequence. This new item should now be the current item.
+end - The last item in the sequence should now be the current item.
+operaotr+ and operator+= - These operators should have the precondition that the sum of the sizes of the two sequences being added is smaller than the CAPACTIY of a sequence.
+The names of the files that you submit should be sequence.h and sequence.cpp. When you upload your solution to camino, please make sure that your sequence is set up to hold the value_type of double and has a capacity of 50.

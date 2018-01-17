@@ -1,0 +1,10 @@
+This week you will work on completing problems 8 and 9 from chapter 3 in the textbook. For problem 8, you will be working on the implementation for a keyed bag. For problem 9, you will be implementing a simple version of a polynomial.
+
+Please download the attached header files for each of these assignments and complete their implementations. You may add additional functions to the header files if you wish to write more to help you complete the assignment. You may NOT alter the names or structure of any of the functions or attributes that are already within the header files. If you do add your own functions, make sure to update the header file's comments to discuss those functions' preconditions and postconditions. You will also be required to include an invariant in each of the implementation files that you write.
+
+Keyed Bag Header: keyed_bag.h
+
+Polynomial Header: poly.hPreview the documentView in a new window
+When doing your implementation, pay careful attention to the preconditions and postconditions given in the corresponding header file. Make sure to follow and enforce these conditions. In poly.h, there are very specific instructions about how a polynomial should be printed. Make sure to follow these and ask for clarification if you are confused, as the format of what the output operator prints will be part of the grade.
+
+The files that you submit should be named exactly keyed_bag.h, keyed_bag.cpp, poly.h, and poly.cpp. The namespace used for the contents of these files should be exactly "coen70_lab4". You should write test files for both of the above classes to test all of their features thoroughly before submitting your solutions.
